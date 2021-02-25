@@ -718,12 +718,15 @@ form ::placeholder {
   background-color: transparent;
 }
 
+.secform button i {
+  font-size: 15px;
+}
+
 .secform button {
   padding: 11px 22px;
   background-color: rgba(160, 153, 179, 0.80);
   border: 0;
   font-size: 14px;
-  color: transparent;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
