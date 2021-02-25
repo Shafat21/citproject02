@@ -723,7 +723,7 @@ form ::placeholder {
   background-color: rgba(160, 153, 179, 0.80);
   border: 0;
   font-size: 14px;
-  color: transparent
+  color: transparent;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
