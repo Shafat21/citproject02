@@ -732,6 +732,7 @@ form ::placeholder {
   font-family: "Montserrat", sans-serif;
   top: 0;
   right: 0;
+  cursor: pointer;
 }
 .secform {
   padding-bottom: 35px;
