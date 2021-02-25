@@ -72,7 +72,7 @@ nav {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 660px;
+  height: 100vh;
 }
 .banner-overlay {
   position: absolute;
