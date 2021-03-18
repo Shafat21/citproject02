@@ -12,10 +12,24 @@
     <title>Project 02 Shafat Alam</title>
 </head>
 <body>
-
+    <!-- Preloader Goes Here -->
+    <div class="preloader">
+        <div class="loader">
+            <span style="--i:0;"></span>
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+            <span style="--i:4;"></span>
+            <span style="--i:5;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:7;"></span>
+            <span style="--i:8;"></span>
+            <span style="--i:9;"></span>
+          </div>
+    </div>
 
     <!-- Nav Bar Goes Here-->
-<nav>
+<nav class="nav">
     <div class="container">
         <div class="nav-main">
             <div class="logo">
@@ -25,13 +39,13 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Expertise</a></li>
-                    <li><a href="#">Teams</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">People Say</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#our-story">About</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#team">Teams</a></li>
+                    <li><a href="#work">Works</a></li>
+                    <li><a href="#qoute">People Say</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -312,7 +326,7 @@
 </section>
 
     <!-- Contact Goes Here-->
-<section>
+<section id="contact">
     <div class="container">
         <div class="contact-main">       
              <div class="form">
@@ -374,6 +388,11 @@
     </div>
     </div>
 </section>
+
+<!-- Back2Top Goes Here-->
+<a href="#" class="back-to-top">
+    <i class="fa fa-chevron-up"></i>
+</a>
 
     <!-- Footer Goes Here-->
 <footer id="footer">
@@ -456,6 +475,7 @@
 </div>
 </footer>
 
-
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
