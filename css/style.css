@@ -252,6 +252,7 @@ ol {
 
 #expertise {
   padding-top: 73px;
+  padding-buttom: 73px;
 }
 .head {
   text-align: center;
@@ -328,7 +329,7 @@ ol {
 /* Amazing Team Goes Here */
 
 #team {
-  padding-top: 73px;
+  
 }
 .team-bgimg {
   position: relative;
